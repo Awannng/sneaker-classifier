@@ -20,7 +20,6 @@ function App() {
               src="/src/assets/orange-blue-shoe-left.png"
               alt="left shoe image"
             />
-
             {/* The input box for image */}
             <input type="file" className="img-input" accept="image/*" />
 
@@ -29,6 +28,7 @@ function App() {
               src="/src/assets/orange-blue-shoe-right.png"
               alt="right shoe image"
             />
+            {/* the output box */}
             <div className="output">
               <h3>Output</h3>
             </div>

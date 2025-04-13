@@ -53,7 +53,7 @@ h1 {
 
 /* the img of the left side of the shoe */
 .left-shoe {
-  margin-right: -110px; /* adjust the gap between 2 shoes */
+  margin-right: -11%; /* adjust the gap between 2 shoes */
   height: auto;
   width: 550px;
   position: relative;
@@ -93,4 +93,34 @@ h1 {
   background-color: white;
   box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px,
     rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+}
+
+/* Responsive adjustments */
+@media (max-width: 1200px) {
+  .shoe-cap {
+    width: 860px;
+  }
+
+  .small-trap {
+    width: 980px;
+  }
+
+  .title {
+    left: 240px;
+  }
+
+  .left-shoe,
+  .right-shoe {
+    width: 450px;
+  }
+
+  .img-input{
+    top: 150px;
+    left: 200px;
+  }
+
+  .output {
+    top: 150px;
+    left: 450px;
+  }
 }
