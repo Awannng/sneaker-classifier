@@ -51,13 +51,46 @@ h1 {
   margin: 20px;
 }
 
-/* the img of the shoe */
+/* the img of the left side of the shoe */
 .left-shoe {
   margin-right: -110px; /* adjust the gap between 2 shoes */
   height: auto;
   width: 550px;
+  position: relative;
 }
+/* the input box for the image */
+.img-input {
+  position: absolute;
+  border: 1px solid black;
+  padding: 10px;
+  border-radius: 10px;
+  width: 180px;
+  height: 150px;
+  left: 270px;
+  top: 200px;
+  background-color: white;
+  box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px,
+    rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+  /* opacity: ; */
+}
+
+/* the img of the right side of the shoe */
 .right-shoe {
   height: auto;
   width: 550px;
+  position: relative;
+}
+/* the output container */
+.output {
+  position: absolute;
+  border: 1px solid black;
+  padding: 10px;
+  border-radius: 10px;
+  width: 180px;
+  height: 150px;
+  top: 200px;
+  left: 565px;
+  background-color: white;
+  box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px,
+    rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
 }
