@@ -1,33 +1,11 @@
-:root {
-  font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
-  line-height: 1.5;
-  font-weight: 400;
-
-  color-scheme: light dark;
-  color: rgba(255, 255, 255, 0.87);
-  background-color: #242424;
-
-  font-synthesis: none;
-  text-rendering: optimizeLegibility;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-}
-
-a {
-  font-weight: 500;
-  color: #646cff;
-  text-decoration: inherit;
-}
-a:hover {
-  color: #535bf2;
+* {
+  margin: 0;
+  padding: 0;
 }
 
 body {
-  margin: 0;
   display: flex;
   place-items: center;
-  min-width: 320px;
-  min-height: 100vh;
 }
 
 h1 {
@@ -35,44 +13,51 @@ h1 {
   line-height: 1.1;
 }
 
-button {
-  border-radius: 8px;
-  border: 1px solid transparent;
-  padding: 0.6em 1.2em;
-  font-size: 1em;
-  font-weight: 500;
-  font-family: inherit;
-  background-color: #1a1a1a;
-  cursor: pointer;
-  transition: border-color 0.25s;
+/* the cap of the shoe box: the large brown trapeziod */
+.shoe-cap {
+  width: 1050px;
+  height: 100%;
+  border-top: 300px solid #c49463;
+  border-left: 60px solid transparent;
+  border-right: 60px solid transparent;
+  position: relative;
+  margin-bottom: 10px;
 }
-button:hover {
-  border-color: #646cff;
+/* the small black rectangle  */
+.small-trap {
+  position: absolute;
+  top: -300px;
+  left: -60px;
+  width: 1170px;
+  height: 0%;
+  border-top: 30px solid black;
+  border-left: 0px solid transparent;
+  border-right: 0px solid transparent;
 }
-button:focus,
-button:focus-visible {
-  outline: 4px auto -webkit-focus-ring-color;
-}
-
-@media (prefers-color-scheme: light) {
-  :root {
-    color: #213547;
-    background-color: #ffffff;
-  }
-  a:hover {
-    color: #747bff;
-  }
-  button {
-    background-color: #f9f9f9;
-  }
+.title {
+  position: absolute;
+  top: -200px;
+  left: 330px;
 }
 
-/* container for the shoe */
-.image-container {
+/* container for the shoe: shoe box */
+.outer-shoe-container {
+  border: 2px solid black;
+  background-color: #c49463;
+}
+.inner-shoe-container {
   display: flex;
+  border: 2px solid black;
+  margin: 20px;
 }
 
-/* adjust the gap between 2 shoes */
+/* the img of the shoe */
 .left-shoe {
-  margin-right: -130px;
+  margin-right: -110px; /* adjust the gap between 2 shoes */
+  height: auto;
+  width: 550px;
+}
+.right-shoe {
+  height: auto;
+  width: 550px;
 }
