@@ -1,7 +1,12 @@
-import { useState } from "react";
+import { useState, useRef} from "react";
 import "./App.css";
+import DragDrop from "../components/DragDrop";
 
 function App() {
+  const fileInputRef = useRef(null);
+  const [selectedImage, setSelectedImage] = useState(null);
+  const [isDragging, setIsDragging] = useState(false);
+
   return (
     <>
       {/* the top for the shoe box: brown trapezoid*/}
@@ -20,8 +25,14 @@ function App() {
               src="/src/assets/orange-blue-shoe-left.png"
               alt="left shoe image"
             />
-            {/* The input box for image */}
-            <input type="file" className="img-input" accept="image/*" />
+
+            {/* Drag and drop area */}
+            <DragDrop
+              isDragging={isDragging}
+              fileInputRef={fileInputRef}
+              setIsDragging={setIsDragging}
+              setSelectedImage={setSelectedImage}
+            />
 
             <img
               className="right-shoe"
@@ -31,6 +42,9 @@ function App() {
             {/* the output box */}
             <div className="output">
               <h3>Output</h3>
+              {selectedImage && (
+                <img src={selectedImage} width="100px" alt="uploaded img" />
+              )}
             </div>
           </div>
         </div>

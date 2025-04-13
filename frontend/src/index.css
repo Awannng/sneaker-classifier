@@ -15,7 +15,7 @@ h1 {
 
 /* the cap of the shoe box: the large brown trapeziod */
 .shoe-cap {
-  width: 1050px;
+  width: 1130px;
   height: 100%;
   border-top: 300px solid #c49463;
   border-left: 60px solid transparent;
@@ -25,19 +25,19 @@ h1 {
 }
 /* the small black rectangle  */
 .small-trap {
-  position: absolute;
+  position: absolute; /*relative to the shoe-cap*/
   top: -300px;
   left: -60px;
-  width: 1170px;
+  width: 1250px;
   height: 0%;
-  border-top: 30px solid black;
+  border-top: 50px solid black;
   border-left: 0px solid transparent;
   border-right: 0px solid transparent;
 }
 .title {
-  position: absolute;
+  position: absolute; /*relative to the shoe-cap*/
   top: -200px;
-  left: 330px;
+  left: 370px;
 }
 
 /* container for the shoe: shoe box */
@@ -55,41 +55,41 @@ h1 {
 .left-shoe {
   margin-right: -11%; /* adjust the gap between 2 shoes */
   height: auto;
-  width: 550px;
+  width: 600px;
   position: relative;
 }
 /* the input box for the image */
-.img-input {
-  position: absolute;
+.drag-drop {
+  position: absolute; /*relative to the left-shoe*/
   border: 1px solid black;
   padding: 10px;
   border-radius: 10px;
   width: 180px;
   height: 150px;
-  left: 270px;
-  top: 200px;
+  left: 305px;
+  top: 220px;
   background-color: white;
   box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px,
     rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
-  /* opacity: ; */
+  
 }
 
 /* the img of the right side of the shoe */
 .right-shoe {
   height: auto;
-  width: 550px;
+  width: 600px;
   position: relative;
 }
 /* the output container */
 .output {
-  position: absolute;
+  position: absolute; /*relative to the right-shoe*/
   border: 1px solid black;
   padding: 10px;
   border-radius: 10px;
   width: 180px;
   height: 150px;
-  top: 200px;
-  left: 565px;
+  top: 220px;
+  left: 620px;
   background-color: white;
   box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px,
     rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
@@ -98,29 +98,33 @@ h1 {
 /* Responsive adjustments */
 @media (max-width: 1200px) {
   .shoe-cap {
-    width: 860px;
+    width: 950px;
   }
 
   .small-trap {
-    width: 980px;
+    width: 1070px;
   }
 
   .title {
-    left: 240px;
+    left: 300px;
   }
 
   .left-shoe,
   .right-shoe {
-    width: 450px;
+    width: 500px;
   }
 
-  .img-input{
-    top: 150px;
-    left: 200px;
+  .drag-drop {
+    top: 215px;
+    left: 235px;
+    width: 180px;
+    height: 100px;
   }
 
   .output {
-    top: 150px;
-    left: 450px;
+    top: 215px;
+    left: 510px;
+    width: 180px;
+    height: 100px;
   }
 }
