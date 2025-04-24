@@ -1,11 +1,11 @@
-import { useState, useRef} from "react";
+import { useState, useRef } from "react";
 import "./App.css";
 import DragDrop from "../components/DragDrop";
 
 function App() {
   const fileInputRef = useRef(null);
-  const [selectedImage, setSelectedImage] = useState(null);
-  const [isDragging, setIsDragging] = useState(false);
+  const [selectedImage, setSelectedImage] = useState(null); //to store the image that user chose
+  const [isDragging, setIsDragging] = useState(false); //to present visual display when user is either dragging the image in the box
 
   return (
     <>
@@ -39,12 +39,15 @@ function App() {
               src="/src/assets/orange-blue-shoe-right.png"
               alt="right shoe image"
             />
-            {/* the output box */}
-            <div className="output">
-              <h3>Output</h3>
-              {selectedImage && (
-                <img src={selectedImage} width="100px" alt="uploaded img" />
-              )}
+            {/* shows the dropped image */}
+            <div className="output-image ">
+              <h3>Image</h3>
+              {selectedImage && <img src={selectedImage} alt="uploaded img" />}
+            </div>
+
+            {/* Shows the prediction at the bottom of the shoe */}
+            <div className="prediction">
+              <h1>Prediction: </h1>
             </div>
           </div>
         </div>

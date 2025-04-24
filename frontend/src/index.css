@@ -37,7 +37,7 @@ h1 {
 .title {
   position: absolute; /*relative to the shoe-cap*/
   top: -200px;
-  left: 370px;
+  left: 380px;
 }
 
 /* container for the shoe: shoe box */
@@ -71,7 +71,6 @@ h1 {
   background-color: white;
   box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px,
     rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
-  
 }
 
 /* the img of the right side of the shoe */
@@ -80,8 +79,8 @@ h1 {
   width: 600px;
   position: relative;
 }
-/* the output container */
-.output {
+/* the output image container */
+.output-image {
   position: absolute; /*relative to the right-shoe*/
   border: 1px solid black;
   padding: 10px;
@@ -94,15 +93,26 @@ h1 {
   box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px,
     rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
 }
+.output-image img {
+  width: 150px;
+  height:90%;
+}
+
+/* The output prediction of the shoe */
+.prediction {
+  position: absolute;
+  bottom: 80px;
+  left: 250px;
+}
 
 /* Responsive adjustments */
 @media (max-width: 1200px) {
   .shoe-cap {
-    width: 950px;
+    width: 980px;
   }
 
   .small-trap {
-    width: 1070px;
+    width: 1100px;
   }
 
   .title {
@@ -111,20 +121,24 @@ h1 {
 
   .left-shoe,
   .right-shoe {
-    width: 500px;
+    width: 520px;
   }
 
   .drag-drop {
-    top: 215px;
-    left: 235px;
+    top: 200px;
+    left: 250px;
     width: 180px;
-    height: 100px;
+    height: 130px;
   }
 
-  .output {
-    top: 215px;
-    left: 510px;
+  .output-image {
+    top: 200px;
+    left: 535px;
     width: 180px;
-    height: 100px;
+    height: 130px;
+  }
+
+  .prediction {
+    left: 200px;
   }
 }
