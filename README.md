@@ -28,5 +28,6 @@ BackEnd:
 
 # Technologies Used:
 
-![download](https://github.com/user-attachments/assets/5d0e3087-b2b5-4a6d-b1cf-5d7790fb2ffa) ![download](https://github.com/user-attachments/assets/b4b2609c-f38e-4f0a-9270-cb343622d403)   
-![download](https://github.com/user-attachments/assets/cf2eab75-fecd-486c-bdd3-4c2ff4e805fb)
+![download](https://github.com/user-attachments/assets/5d0e3087-b2b5-4a6d-b1cf-5d7790fb2ffa) ![download](https://github.com/user-attachments/assets/cf2eab75-fecd-486c-bdd3-4c2ff4e805fb)
+
+ ![download](https://github.com/user-attachments/assets/b4b2609c-f38e-4f0a-9270-cb343622d403)   
