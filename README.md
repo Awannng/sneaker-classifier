@@ -33,3 +33,11 @@ BackEnd:
 ![download](https://github.com/user-attachments/assets/cf2eab75-fecd-486c-bdd3-4c2ff4e805fb)
 
  ![download](https://github.com/user-attachments/assets/b4b2609c-f38e-4f0a-9270-cb343622d403)   
+
+# How our APP Works?
+
+9 Classes Of Sneakers | Adidas, Asics, Converse, New_Balance, Nike, Puma, Reebok, Skechers, Vans
+18,000+  Web Scraped Google Images
+Construction of Nueral Network
+
+![image](https://github.com/user-attachments/assets/6363c8a5-0cdd-41a7-a33c-9a96676b76ee)
