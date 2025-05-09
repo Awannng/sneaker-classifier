@@ -13,7 +13,7 @@ Hence, our sneaker image classifier idea was born!
 Cause everyone literally where’s sneakers all the time and some people are obsessed with them: Sneaker Heads! So we thought this project idea, yet simple, would be very relatable.
 
 
-#Tech Stack
+# Tech Stack
 
 Front End:
 
