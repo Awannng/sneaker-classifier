@@ -40,6 +40,7 @@ BackEnd:
 
 18,000+  Web Scraped Google Images
 
-Construction of Nueral Network
+
+Construction of Nueral Network: Trained for 10 epochs
 
 ![image](https://github.com/user-attachments/assets/6363c8a5-0cdd-41a7-a33c-9a96676b76ee)
