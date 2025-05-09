@@ -37,7 +37,9 @@ BackEnd:
 # How our APP Works?
 
 9 Classes Of Sneakers | Adidas, Asics, Converse, New_Balance, Nike, Puma, Reebok, Skechers, Vans
+
 18,000+  Web Scraped Google Images
+
 Construction of Nueral Network
 
 ![image](https://github.com/user-attachments/assets/6363c8a5-0cdd-41a7-a33c-9a96676b76ee)
