@@ -17,14 +17,12 @@ Cause everyone literally where’s sneakers all the time and some people are obs
 
 Front End:
 
-![download](https://github.com/user-attachments/assets/fcda680f-f648-4f21-a295-69eaaa9fda5a)
+![download](https://github.com/user-attachments/assets/fcda680f-f648-4f21-a295-69eaaa9fda5a)   ![download](https://github.com/user-attachments/assets/4b56e56b-a874-4d69-9f48-ba2380f3ccc5)
 
-![download](https://github.com/user-attachments/assets/4b56e56b-a874-4d69-9f48-ba2380f3ccc5)
+
 
 BackEnd:
 
-![download](https://github.com/user-attachments/assets/096a2f88-6294-44dd-8815-05b5a0d5249a)
+![download](https://github.com/user-attachments/assets/096a2f88-6294-44dd-8815-05b5a0d5249a)    ![download](https://github.com/user-attachments/assets/70eafd09-31ab-40e4-95e2-5ac22d0d1723)  ![download](https://github.com/user-attachments/assets/d5408dd4-ca8e-4f22-9f63-c9555442b6af)
 
-![download](https://github.com/user-attachments/assets/70eafd09-31ab-40e4-95e2-5ac22d0d1723)
 
-![download](https://github.com/user-attachments/assets/d5408dd4-ca8e-4f22-9f63-c9555442b6af)
